@@ -1,2 +1,1 @@
-branch=$(git rev-parse --abbrev-ref HEAD)
-cp config/$branch config.js
+cp config/$TRAVIS_BRANCH config.js
