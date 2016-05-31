@@ -1,7 +1,9 @@
 'use strict';
 let exec = require('child_process').exec;
+var config = require('./config.js');
 
 exports.handler = (event, context, callback) => {
+    console.log("Current Environment:  " + config.Environment);
     if (!event.cmd) {
         return callback('Please specify a command to run as event.cmd');
     }
