@@ -2,4 +2,4 @@ language: node_js
 node_js:
     "4.3"
 before_script:
-  - npm install -g vows
+  - npm install vows
