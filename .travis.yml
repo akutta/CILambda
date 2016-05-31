@@ -8,7 +8,7 @@ deploy:
   role: "arn:aws:iam::794548384198:role/lambda_basic_execution"
   handler_name: "handler"
   access_key_id: "AKIAJJTDBEGK2SQG2KCA"
-  runtime: "Node.js 4.3"
+  runtime: "nodejs4.3"
   secret_access_key:
     secure: arqePaeObuiHLTXeYQgIvXDrNabDPkAiJcrHHMMFlB03p9wzZeoyWhsO5s0OIU1gOzeDnKwzDQqNHQjBGEUhnlB5zK2HZEjDj8iI69O69p76nHt3dpUT+MZ/Z7spOVBt65q3IeMcaDTgTkpsUEyTU4Mxp4eVBdjkGSE/W/azA2rFTiiuzQvUOiKdfACN4aV/MQVCSsVkldTWejunokrplR/LpANfFuC+A1s+tstH0Pncu0sChvITwakHF/Vf3nhT4VTy/XC/sfZG8IF294Zir/pjyLaBJhM/ekbTMLMIgRotGgiuhL7z5CUDkIDAWcXZz0A1J2e6UTozitNnqCy31W3kEuJqRJeNf05hlDdWv5P4bbtAZL9sQivI8HxkjYl8PnIROiNrCJq1b9SqKhDwZBXdqWlE34/tI48Fhj4X+3wWH0fUBg2CBgKjpPbON2sLKs1EDQWTLQaMgEjRpacZL11PEhMC9mA7KMpzs6Ysb19xzuuyW0LMZ7HviPE6BS80cWSM/lQiAr5g9xS6Ym9hLtPXJwo4Kg3D0HK2NMTPZjN13MPhvgQRbmy1SziiuHvQQXGxTJjdSvweYFtwYQrnsLUPpWW5sGYFqGfKiOXXMvdRulRfWh3SKqfLG3EbS4Up24RudbCWieCbJLOPECclf60hk+PY/VE5IvH0S/T4DJs=
 env:
