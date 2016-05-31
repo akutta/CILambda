@@ -3,7 +3,7 @@ node_js: '4.3'
 before_script:
 - npm install vows
 before_deploy:
-- npm run-script updateconfig
+- cp config/$TRAVIS_BRANCH config.js
 deploy:
   provider: lambda
   function_name: "lambda-test"
