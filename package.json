@@ -1,0 +1,19 @@
+{
+  "name": "cilambda",
+  "version": "1.0.0",
+  "description": "testing travisci",
+  "main": "index.js",
+  "scripts": {
+    "test": "vows test/* --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akutta/CILambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akutta/CILambda/issues"
+  },
+  "homepage": "https://github.com/akutta/CILambda#readme",
+}
